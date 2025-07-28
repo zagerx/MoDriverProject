@@ -1,0 +1,19 @@
+manifest:
+  self:
+    path: MoDriverProject  # 修正拼写错误
+
+  remotes:
+    - name: github
+      url-base: https://github.com
+    - name: origin 
+      url-base: ssh://git@github.com/zagerx  # 改为 SSH 协议
+
+  defaults:
+    remote: origin
+    revision: master
+
+  projects:
+    - name: MoDriver_HW_Control
+      path: HardWare/Control
+      remote: origin  # 改为存在的 remote
+      revision: master
