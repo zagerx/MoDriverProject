@@ -21,3 +21,10 @@ manifest:
       path: HardWare/DriverBoard
       remote: origin
       revision: master
+    - name: KicadLib
+      path: HardWare/KicadLib
+      remote: origin
+      revision: master    
+
+
+    
