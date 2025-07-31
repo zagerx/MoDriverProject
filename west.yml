@@ -14,7 +14,7 @@ manifest:
 
   projects:
     - name: zephyr
-      path: SoftWare/
+      path: SoftWare
       remote: github
       repo-path: zephyrproject-rtos/zephyr
       revision: v4.1.0
