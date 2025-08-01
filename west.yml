@@ -13,19 +13,6 @@ manifest:
     revision: master
 
   projects:
-    - name: zephyr
-      path: SoftWare
-      remote: github
-      repo-path: zephyrproject-rtos/zephyr
-      revision: v4.1.0
-      import: submanifests
-      import:
-        name-allowlist:
-          - cmsis
-          - cmsis-dsp
-          - hal_stm32
-          - segger
-    
     - name: MoDriver_HW_Control
       path: HardWare/ControlBoard
       remote: origin
